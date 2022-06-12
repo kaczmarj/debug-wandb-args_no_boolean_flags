@@ -1,0 +1,12 @@
+command:
+  - ${env}
+  - ${interpreter}
+  - ${program}
+  - ${args_no_boolean_flags}
+parameters:
+  arg:
+    value: foo
+  flag:
+    values: [true, false]
+method: grid
+program: train.py
